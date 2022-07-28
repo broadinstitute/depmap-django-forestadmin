@@ -154,7 +154,8 @@ class Schema:
 
     @classmethod
     def handle_schema_file(cls):
-        file_path = os.path.join(os.getcwd(), '.forestadmin-schema.json')
+        schema_dir = get_forest_setting("SCHEMA_DIR", os.getcwd())
+        file_path = os.path.join(schema_dir, ".forestadmin-schema.json")
         if settings.DEBUG:
             cls.schema_data = copy.deepcopy(cls.schema)
             for index, collection in enumerate(cls.schema_data['collections']):

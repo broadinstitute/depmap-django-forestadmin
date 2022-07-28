@@ -7,6 +7,7 @@ import django
 import pytest
 from unittest import mock
 from django.test import TestCase, override_settings
+from django.conf import settings
 
 from django_forest.tests.fixtures.schema import test_schema, test_choice_schema, \
     test_exclude_django_contrib_schema, test_serialized_schema, test_question_schema_data
@@ -200,6 +201,13 @@ class UtilsSchemaFileTests(TestCase):
             self.assertFalse('get' in foo_field)
             self.assertIsNotNone(Schema.schema_data)
 
+@pytest.mark.usefixtures("reset_config_dir_import")
+def test_schema_dir_override(tmpdir):
+    forest_settings = dict(settings.FOREST)
+    forest_settings["SCHEMA_DIR"] = str(tmpdir)
+    with override_settings(FOREST=forest_settings, DEBUG=True):
+        Schema.handle_schema_file()
+    assert tmpdir.join(".forestadmin-schema.json").exists()
 
 class UtilsSchemaSendTests(TestCase):
 
