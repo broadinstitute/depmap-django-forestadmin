@@ -22,8 +22,6 @@ class CsvMixin:
     def fill_csv(self, data, writer, params):
         for record in data['data']:
             res = record['attributes']
-            if record.get('id') is not None:
-                res['id'] = record['id']
             if 'relationships' in record and 'included' in data:
                 res = self.fill_csv_relationships(res, record, data, params)
 
