@@ -1,3 +1,24 @@
+## [1.3.5](https://github.com/ForestAdmin/django-forest/compare/v1.3.4...v1.3.5) (2022-08-09)
+
+
+### Bug Fixes
+
+* **field_type:** dateonly field type should not be in camel case ([#113](https://github.com/ForestAdmin/django-forest/issues/113)) ([8b17380](https://github.com/ForestAdmin/django-forest/commit/8b17380669052506865c58d7f4c802b01a583831))
+
+## [1.3.4](https://github.com/ForestAdmin/django-forest/compare/v1.3.3...v1.3.4) (2022-08-02)
+
+
+### Bug Fixes
+
+* **csv:** prevent error with model without id attr ([#112](https://github.com/ForestAdmin/django-forest/issues/112)) ([70400e5](https://github.com/ForestAdmin/django-forest/commit/70400e5199e538937b17e0fce118d97dea70f557))
+
+## [1.3.3](https://github.com/ForestAdmin/django-forest/compare/v1.3.2...v1.3.3) (2022-07-11)
+
+
+### Bug Fixes
+
+* **authentication:** add skew to id_token iat verification ([#109](https://github.com/ForestAdmin/django-forest/issues/109)) ([fef0774](https://github.com/ForestAdmin/django-forest/commit/fef0774b6689cfd4b4af3859aaa57da5ca57f00a))
+
 ## [1.3.2](https://github.com/ForestAdmin/django-forest/compare/v1.3.1...v1.3.2) (2022-05-18)
 
 
