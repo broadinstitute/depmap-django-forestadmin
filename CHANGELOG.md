@@ -1,3 +1,24 @@
+## [1.3.8](https://github.com/ForestAdmin/django-forest/compare/v1.3.7...v1.3.8) (2022-08-31)
+
+
+### Bug Fixes
+
+* **issue-117:** resolve issue where action name was not being respected for hooks ([#118](https://github.com/ForestAdmin/django-forest/issues/118)) ([403893a](https://github.com/ForestAdmin/django-forest/commit/403893ae82bcea3d94c3eba888b86fa60c2eacf0))
+
+## [1.3.7](https://github.com/ForestAdmin/django-forest/compare/v1.3.6...v1.3.7) (2022-08-31)
+
+
+### Bug Fixes
+
+* **issue-115:** smart fields always calculated ([9ba8f15](https://github.com/ForestAdmin/django-forest/commit/9ba8f15d230deaf5f9082e1027543ddf1c5be0e3))
+
+## [1.3.6](https://github.com/ForestAdmin/django-forest/compare/v1.3.5...v1.3.6) (2022-08-23)
+
+
+### Bug Fixes
+
+* **csv:** pagination should be ignored ([#111](https://github.com/ForestAdmin/django-forest/issues/111)) ([f190464](https://github.com/ForestAdmin/django-forest/commit/f19046492854e10417ac1ae0bae242178a0dc182))
+
 ## [1.3.5](https://github.com/ForestAdmin/django-forest/compare/v1.3.4...v1.3.5) (2022-08-09)
 
 
