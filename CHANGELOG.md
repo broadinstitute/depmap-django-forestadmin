@@ -1,3 +1,24 @@
+## [1.4.2](https://github.com/ForestAdmin/django-forest/compare/v1.4.1...v1.4.2) (2022-09-15)
+
+
+### Bug Fixes
+
+* **filters:** date and dateonly fields should be cast to avoid issues in filters ([#121](https://github.com/ForestAdmin/django-forest/issues/121)) ([e5fd115](https://github.com/ForestAdmin/django-forest/commit/e5fd1151dd27b4e5652302a6a5f6b6d59d800afb))
+
+## [1.4.1](https://github.com/ForestAdmin/django-forest/compare/v1.4.0...v1.4.1) (2022-09-14)
+
+
+### Bug Fixes
+
+* **chart:** disables the permission middleware for the chart's resources and some roles ([#120](https://github.com/ForestAdmin/django-forest/issues/120)) ([903c87a](https://github.com/ForestAdmin/django-forest/commit/903c87a9fef22ee9c85b09ad4c06d70d7074a00a))
+
+# [1.4.0](https://github.com/ForestAdmin/django-forest/compare/v1.3.8...v1.4.0) (2022-09-14)
+
+
+### Features
+
+* **auth:** remove the APPLICATION_URL parameter ([#119](https://github.com/ForestAdmin/django-forest/issues/119)) ([e2ebd2d](https://github.com/ForestAdmin/django-forest/commit/e2ebd2d3138e02dad74bcab22b978f51d03102aa))
+
 ## [1.3.8](https://github.com/ForestAdmin/django-forest/compare/v1.3.7...v1.3.8) (2022-08-31)
 
 
