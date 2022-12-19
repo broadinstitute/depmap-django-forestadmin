@@ -31,7 +31,10 @@ class QuerysetMixin(PaginationMixin, FiltersMixin, SearchMixin, ScopeMixin, Deco
 
         # sort
         if 'sort' in params:
-            queryset = queryset.order_by(params['sort'].replace('.', '__'))
+            sort_value = params['sort']
+            if '.id' in sort_value:
+                sort_value = sort_value.replace('.id', '')
+            queryset = queryset.order_by(sort_value.replace('.', '__'))
 
         # segment
         if 'segment' in params:
