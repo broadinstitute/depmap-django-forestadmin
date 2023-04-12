@@ -1,3 +1,31 @@
+## [1.4.10](https://github.com/ForestAdmin/django-forest/compare/v1.4.9...v1.4.10) (2023-04-11)
+
+
+### Bug Fixes
+
+* **middleware:** users can force the forest middleware orders ([#130](https://github.com/ForestAdmin/django-forest/issues/130)) ([aeae4fd](https://github.com/ForestAdmin/django-forest/commit/aeae4fdadf0f931b2b8631d4ba0d6514717ec5a7))
+
+## [1.4.9](https://github.com/ForestAdmin/django-forest/compare/v1.4.8...v1.4.9) (2023-04-07)
+
+
+### Bug Fixes
+
+* **ressources:** deactivate count didn't return correct value when enable ([#127](https://github.com/ForestAdmin/django-forest/issues/127)) ([3d8ef2d](https://github.com/ForestAdmin/django-forest/commit/3d8ef2dcb74bcd3d181d5b0e74ae2491ceb36518))
+
+## [1.4.8](https://github.com/ForestAdmin/django-forest/compare/v1.4.7...v1.4.8) (2023-04-06)
+
+
+### Bug Fixes
+
+* **stats:** users should be able to use related field in group by aggregation ([#129](https://github.com/ForestAdmin/django-forest/issues/129)) ([2699e31](https://github.com/ForestAdmin/django-forest/commit/2699e3101cef9cdc3837fc1820befeca3fc03e25))
+
+## [1.4.7](https://github.com/ForestAdmin/django-forest/compare/v1.4.6...v1.4.7) (2023-04-05)
+
+
+### Bug Fixes
+
+* **filters:** nested aggregator weren't implemented ([#128](https://github.com/ForestAdmin/django-forest/issues/128)) ([4361849](https://github.com/ForestAdmin/django-forest/commit/4361849982530f34d30354a35644bc229bb279e4))
+
 ## [1.4.6](https://github.com/ForestAdmin/django-forest/compare/v1.4.5...v1.4.6) (2023-03-22)
 
 
