@@ -1,3 +1,24 @@
+# [1.6.0](https://github.com/ForestAdmin/django-forest/compare/v1.5.0...v1.6.0) (2023-07-13)
+
+
+### Features
+
+* **django_new_version:** add support for django 4.1 and 4.2 ([#137](https://github.com/ForestAdmin/django-forest/issues/137)) ([b0898ff](https://github.com/ForestAdmin/django-forest/commit/b0898ff033f533960e711a63101c8be0c8c9d87e))
+
+# [1.5.0](https://github.com/ForestAdmin/django-forest/compare/v1.4.11...v1.5.0) (2023-06-08)
+
+
+### Features
+
+* package is installable for python3.11 ([#132](https://github.com/ForestAdmin/django-forest/issues/132)) ([405cfd9](https://github.com/ForestAdmin/django-forest/commit/405cfd95767934599c1c8260cba8fef103b0a5b5))
+
+## [1.4.11](https://github.com/ForestAdmin/django-forest/compare/v1.4.10...v1.4.11) (2023-04-12)
+
+
+### Bug Fixes
+
+* **scope:** allows users to filter on integer field ([#131](https://github.com/ForestAdmin/django-forest/issues/131)) ([006ce6c](https://github.com/ForestAdmin/django-forest/commit/006ce6cf135b09c108ef096731259fff24a168a0))
+
 ## [1.4.10](https://github.com/ForestAdmin/django-forest/compare/v1.4.9...v1.4.10) (2023-04-11)
 
 
